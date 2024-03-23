@@ -334,43 +334,41 @@ p {
         </style>
         
         <div class="contacts-body">
-            <div class="contacts-form">
-              <form>
-                <div class="input-container">
-                  <label for="Name" class="label"> Name </label>
-                  <input placeholder="Your name here..." class="form-input input" />
-                </div>
-                <div class="input-container">
-                  <label for="Email" class="label"> Email </label>
-                  <input placeholder="Your email here..." class="form-input input" />
-                </div>
-                <div class="input-container">
-                  <label for="Message" class="label"> Message </label>
-                  <textarea placeholder="Type your message...." class="form-input message"></textarea>
-                </div>
-  
-                <div class="submit-btn">
-                  <button type="submit" class="submit">
-                    <p>Send</p>
-                    <div class="submit-icon">
-                      <i class="fa-solid fa-paper-plane"></i>
-                    </div>
-                  </button>
-                </div>
-              </form>
-            </div>
-  
-            <div class="contacts-details">
-              <a href="mailto:wilson.kg92@gmail.com" class="personal-details">
-                <div class="details">
-                  <i class="fa-solid fa-at"></i>
-                </div>
-                <p style="color: #eaeaea"></p>
-              </a>
-  
-              
-            </div>
+  <div class="contacts-form">
+    <form id="contact-form" method="POST" action="send-email.php">
+      <div class="input-container">
+        <label for="Name" class="label"> Name </label>
+        <input id="name-input" name="name" placeholder="Your name here..." class="form-input input" />
+      </div>
+      <div class="input-container">
+        <label for="Email" class="label"> Email </label>
+        <input id="email-input" name="email" placeholder="Your email here..." class="form-input input" />
+      </div>
+      <div class="input-container">
+        <label for="Message" class="label"> Message </label>
+        <textarea id="message-input" name="message" placeholder="Type your message...." class="form-input message"></textarea>
+      </div>
+
+      <div class="submit-btn">
+        <button type="submit" class="submit">
+          <p>Send</p>
+          <div class="submit-icon">
+            <i class="fa-solid fa-paper-plane"></i>
           </div>
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="contacts-details">
+    <a href="mailto:wilson.kg92@gmail.com" class="personal-details">
+      <div class="details">
+        <i class="fa-solid fa-at"></i>
+      </div>
+      <p style="color: #eaeaea"></p>
+    </a>
+  </div>
+</div>
         </div>
         
       </div>
