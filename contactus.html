@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Krystal Klean is a professional cleaning service that specializes in house cleanings, new construction cleanings, deep cleanings, beach houses, and Airbnb properties. We provide top-quality cleaning services to ensure your space is spotless and sparkling. Contact us today for a clean and fresh living environment.">
+  <title>Krystal Klean</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ff75e8;
+      background-image: url("/Users/user/Downloads/Full-4k-Pink-Wallpaper.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+    }
+    h1 {
+      color: #6b44b4;
+      text-align: center;
+    }
+    .logo img {
+  width: 1200px;
+  height: 600px;
+}
+#about {
+  
+  padding: 50px 0;
+}
+
+.contacts {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  
+  .contacts--img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    pointer-events: none;
+  }
+  
+  .contacts--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem 6rem 3rem;
+    width: 80%;
+    height: 100%;
+    margin-top: 2rem;
+  }
+  
+  .contacts--container > h1 {
+    font-family: var(--primaryFont);
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .contacts-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 50vh; /* Adjust to your preference for vertical centering */
+}
+
+.contacts-form {
+  width: 80%; /* Adjust width as needed */
+  max-width: 400px; /* Limit width to prevent it from stretching too much */
+  padding: 20px; /* Add padding for spacing */
+}
+  .contacts-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .input-container {
+    width: 100%;
+  }
+  
+  .form-input {
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 0.7rem 0.7rem;
+    border-radius: 20px;
+    width: 100%;
+    resize: none;
+  }
+  
+  .form-message {
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 0.7rem 0.7rem;
+    border-radius: 20px;
+    width: 100%;
+    resize: none;
+  }
+  
+  .submit-btn button {
+    border: none;
+    outline: none;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: #6b44b4;
+  }
+  
+  .submit-btn button p {
+    font-size: 16px;
+    font-family: var(--primaryFont);
+  }
+  
+  .submit-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .send-icon {
+    font-size: 25px;
+    transform-origin: center;
+    transform: translate(5px, -3px) rotate(-30deg);
+  }
+  
+  .success-icon {
+    font-size: 28px;
+    transition: all 0.3s 0.8s ease-in-out;
+  }
+  
+  .contacts-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 0.6;
+    box-sizing: border-box;
+    padding-left: 7rem;
+    margin-top: 1.2rem;
+  }
+  .details {
+    background-color: #f56539;
+    color: #000024;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    transition: 250ms ease-in-out;
+    flex-shrink: 0;
+  }
+  
+  .details:hover {
+    transform: scale(1.1);
+    color: #000024;
+    background-color: #eaeaea;
+  }
+  
+  .submit {
+    background-color: #f56539;
+    color: #000024;
+    transition: 250ms ease-in-out;
+  }
+  
+  .submit:hover {
+    transform: scale(1.08);
+    color: #000024;
+    background-color: #eaeaea;
+  }
+  
+  .input {
+    border: 4px solid #f56539cc;
+    background-color: #6b44b4;
+    color: #eaeaea;
+    font-weight: 500;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .input:focus {
+    border: 4px solid #fa5624;
+  }
+  
+  .message {
+    border: 4px solid #f56539cc;
+    background-color: #6b44b4;
+    color: #eaeaea;
+    font-weight: 500;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .message:focus {
+    border: 4px solid #fa5624;
+  }
+
+  .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #6b44b4;
+  padding: 50px;
+  border: 5px solid #ffffff;
+}
+
+h2 {
+  font-size: 28px;
+  color: #6b44b4;
+}
+
+p {
+  font-size: 16px;
+  color: #6b44b4;
+  
+  margin-bottom: 20px;
+}
+.menu {
+  list-style-type: none;
+  margin: -8px;
+  padding: 0;
+  background-color: #6b44b4;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  background-color: #6b44b4;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ff75e8;
+}
+
+.menu li a:hover {
+  background-color: #f823d5;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #6b44b4;
+  padding: 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+    /* Add more CSS rules as needed */
+  </style>
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+          <li><a href="/Users/user/Desktop/websitev1/index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Residential</a></li>
+              <li><a href="#">Commercial</a></li>
+              <li><a href="#">Deep Cleaning</a></li>
+              <li><a href="#">Recurring Cleaning</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="/Users/user/Desktop/websitev1/contactus.html">Contact</a></li>
+        </ul>
+      </nav>
+    
+    <header>
+        <div class="logo">
+          <img src="/Users/user/Documents/Krystal%20Klean/PhotoRoom-20231015_211524.png" alt="Krystal Klean Logo">
+        </div>
+        <h1 class="tagline">Set up a Home Walkthrough today!</h1>
+        
+      </header>
+      
+
+      <style>
+        .container {
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #6b44b4;
+          border-radius: 5px;
+        }
+        
+        form label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        
+        form input,
+        form textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+        
+        form input[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          cursor: pointer;
+        }
+        
+        form input[type="submit"]:hover {
+          background-color: #45a049;
+        }
+        
+        </style>
+        
+        <div class="contacts-body">
+            <div class="contacts-form">
+              <form>
+                <div class="input-container">
+                  <label for="Name" class="label"> Name </label>
+                  <input placeholder="Your name here..." class="form-input input" />
+                </div>
+                <div class="input-container">
+                  <label for="Email" class="label"> Email </label>
+                  <input placeholder="Your email here..." class="form-input input" />
+                </div>
+                <div class="input-container">
+                  <label for="Message" class="label"> Message </label>
+                  <textarea placeholder="Type your message...." class="form-input message"></textarea>
+                </div>
+  
+                <div class="submit-btn">
+                  <button type="submit" class="submit">
+                    <p>Send</p>
+                    <div class="submit-icon">
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                  </button>
+                </div>
+              </form>
+            </div>
+  
+            <div class="contacts-details">
+              <a href="mailto:wilson.kg92@gmail.com" class="personal-details">
+                <div class="details">
+                  <i class="fa-solid fa-at"></i>
+                </div>
+                <p style="color: #eaeaea"></p>
+              </a>
+  
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+</body>
+</html>
