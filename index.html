@@ -38,18 +38,24 @@
   border: 5px solid #ffffff;
 }
 .paragraph-container {
-  text-align: center; /* Center the content */
+  display: flex; /* Use flexbox for layout control */
+  align-items: center; /* Align items vertically within the container */
+  justify-content: center; /* Center items horizontally within the container */
+  text-align: center; /* Center text horizontally */
 }
 
 .photo {
-  max-width: 300px; /* Set the maximum width of the image */
+  max-width: 300px; /* Set the maximum width of the photo */
+  margin-right: 20px; /* Add spacing between the photo and text */
+}
+
+.text-side {
+  flex: 1; /* Allow the text to occupy remaining space */
 }
 
 .photo img {
-  max-width: 100%;
-  max-height: 200px; /* Set the maximum height of the image */
-  display: block; /* Ensure the image is displayed as a block element */
-  margin: 0 auto; /* Center the image horizontally within the container */
+  max-width: 100%; /* Ensure the photo fits the container width */
+  max-height: 200px; /* Set the maximum height of the photo */
 }
 h2 {
   font-size: 28px;
