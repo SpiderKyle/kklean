@@ -150,10 +150,20 @@ p {
 }
 
 .middle-section {
-  width: 95%;
-  
-  
-}
+    flex-direction: column; /* Change to column layout for better stacking */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center align text */
+  }
+
+  .middle-section .text {
+    width: 90%; /* Adjust width of the text */
+    margin-bottom: 20px; /* Add some bottom margin for separation */
+  }
+
+  .middle-section .image {
+    width: 90%; /* Adjust width of the image */
+    margin-bottom: 20px; /* Add some bottom margin for separation */
+  }
 }
     /* Add more CSS rules as needed */
   </style>
