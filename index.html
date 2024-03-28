@@ -152,11 +152,28 @@ p {
     padding: -25px;
 }
 
-.text-left, .text-right {
-flex: 1;
-  width: 95%;
-  padding: -50px;
-}
+.middle-section {
+    flex-direction: column; /* Change to column layout for better stacking */
+    align-items: center; /* Center align items */
+    text-align: center; /* Center align text */
+  }
+
+  .text-left,
+  .text-right {
+    width: 90%; /* Adjust width to make text wider */
+    padding: 20px; /* Add padding for better readability */
+    margin: 20px auto; /* Adjust margin for centering */
+  }
+
+  .image-left,
+  .image-right {
+    width: 90%; /* Adjust width to make image wider */
+    margin: 20px auto; /* Adjust margin for centering */
+  }
+
+  .image {
+    width: 100%; /* Ensure images fill the available width */
+  }
 
   
 }
