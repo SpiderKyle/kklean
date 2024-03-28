@@ -171,7 +171,7 @@ p {
     display: block;
   }
 
-  .text-left, text-right {
+  .text-left {
     position: absolute; /* Position the text absolutely */
     top: 50%; /* Position the text vertically in the middle */
     left: 50%; /* Position the text horizontally in the middle */
@@ -180,9 +180,19 @@ p {
     padding: 20px; /* Add padding for better readability */
     color: #ffffff; /* Text color */
     text-align: center; /* Center align text */
-    max-width: 80%; /* Limit the width of the text overlay */
+    max-width: 100%; /* Limit the width of the text overlay */
   }
-
+.text-right {
+    position: absolute; /* Position the text absolutely */
+    top: 50%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px; /* Add padding for better readability */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center align text */
+    max-width: 100%; /* Limit the width of the text overlay */
+  }
   
 }
     /* Add more CSS rules as needed */
