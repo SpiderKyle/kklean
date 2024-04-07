@@ -1,1 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Krystal Klean is a professional cleaning service that specializes in house cleanings, new construction cleanings, deep cleanings, beach houses, and Airbnb properties. We provide top-quality cleaning services to ensure your space is spotless and sparkling. Contact us today for a clean and fresh living environment.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krystal Klean</title>
+  <style>
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      background-image: url("—Pngtree—gorgeous pink crystal mosaic an_13410592.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+    }
+    h1 {
+      color: #ff75e8;
+      text-align: center;
+    }
+    .logo img {
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+header {
+  text-align: center; /* Center align the content within the header */
+}
 
+.logo {
+  display: inline-block; /* Display the logo as an inline-block element */
+}
+
+.logo img {
+  display: block; /* Display the image as a block element for easier centering */
+  margin: 0 auto; /* Center the logo horizontally */
+}
+#about {
+
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: rgba(107, 68, 180, 0.7);
+  padding: 0px;
+  border: 5px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-text {
+  flex: 1;
+  width: 75%;
+  top-margin: 10px;
+}
+    .bottom-text {
+  flex: 1;
+  width: 75%;
+    }
+.middle-section {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-top: 0px;
+  
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  width: 350px;
+  height: auto;
+}
+h2 {
+  font-size: 28px;
+  color: #ff75e8;
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.menu {
+  list-style-type: none;
+  margin: -8px;
+  padding: 0;
+  background-color: rgba(107, 68, 180, 0.7);
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ff75e8;
+}
+
+.menu li a:hover {
+  background-color: #f823d5;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(107, 68, 180, 0.7);
+  padding: 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 60%;
+    position: relative;
+    
+  }
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      background-image: url("—Pngtree—gorgeous pink crystal mosaic an_13410592.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+  }
+  .logo {
+    transform: scale(0.35);
+    position: absolute;
+    top: -8rem;
+    left: -20rem;
+    
+}
+  .container {
+    position: relative;
+    top: 165px;
+    background-color: rgba(107, 68, 180, 1.0);
+}
+  .top-text, .bottom-text {
+  flex: 1;
+  width: 95%;
+    padding: -25px;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align horizontally */
+    width: 80%;
+    margin-top: 0px;
+    position: relative; /* Set position relative to allow absolute positioning of child elements */
+  }
+
+  .image-container {
+    position: relative; /* Set position relative to allow absolute positioning of child elements */
+    width: 100%; /* Ensure the container fills the available width */
+  }
+
+  image {
+    width: 100%; /* Ensure the image fills the container */
+    display: block;
+  }
+
+  .text-left {
+    position: absolute; /* Position the text absolutely */
+    top: 83%; /* Position the text vertically in the middle */
+    left: 34%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: rgba(107, 68, 180, 0.7); /* Semi-transparent background for better readability */
+    padding: 10px; /* Add padding for better readability */
+    color: #ffffff; /* Text color */
+    text-align: justify; /* Center align text */
+    width: 77%; 
+  }
+.text-right {
+    position: absolute; /* Position the text absolutely */
+    top: 14%; /* Position the text vertically in the middle */
+    left: 66%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    background-color: rgba(107, 68, 180, 0.7); /* Semi-transparent background for better readability */
+    padding: 10px; /* Add padding for better readability */
+    color: #ffffff; /* Text color */
+    text-align: justify; /* Center align text */
+    width: 77%; /* Limit the width of the text overlay */
+    max-height: 115px;
+    
+  }
+  .footer {
+    display: none;
+  }
+}
+    /* Add more CSS rules as needed */
+  </style>
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+          <li><a href="https://spiderkyle.github.io/kklean/">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Residential</a></li>
+              <li><a href="#">Commercial</a></li>
+              <li><a href="#">Deep Cleaning</a></li>
+              <li><a href="#">Recurring Cleaning</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="https://spiderkyle.github.io/kklean/contactus.html">Contact</a></li>
+        </ul>
+      </nav>
+    
+    <header>
+        <div class="logo">
+          <img src="PhotoRoom-20231015_211524.png" alt="Krystal Klean Logo">
+        </div>
+        
+      </header>
+      
+
+
+  <div class="container">
+<h1 class="tagline">Making Your Space Krystal Klean!</h1>
+  <div class="top-text">
+    <p>At Krystal Klean, we understand that your home is your sanctuary. It's where you relax, unwind, and make memories with your loved ones. That's why we offer comprehensive residential cleaning services designed to keep your space sparkling clean and comfortable. Our team of professional cleaners is equipped with the expertise and tools necessary to tackle any cleaning challenge, ensuring your home is meticulously maintained.</p>
+
+    
+  </div>
+
+  <div class="middle-section">
+    <div class="text text-left">
+      <p>Regular House Cleaning Tasks: Our routine cleaning service covers all the essentials to maintain your home's cleanliness. This includes dusting lamps, light fixtures, ceiling fans, window ledges, blinds, furniture, shelves, and decor. We vacuum sofas and other upholstered furniture, dust baseboards, wipe down doors and doorframes, clean out corners for cobwebs, tidy shoe closets, vacuum all floors, carpets, rugs, and stairs, mop hard floors, clean glass surfaces, straighten pillows and linens, and empty and replace wastebaskets.</p>
+    </div>
+
+    <div class="image image-left">
+      <img src="kkleanhome.jpg" alt="Krystal Klean" style="width: 100%;">
+    </div>
+  </div>
+
+  <div class="middle-section">
+    <div class="image">
+      <img src="IMG_20240328_201520.jpg" alt="Krystal Klean" style="width: 100%;">
+    </div>
+
+    <div class="text text-right">
+      <p>Weekly Cleaning Checklist: To keep your home in top shape, we offer weekly cleaning services that include cleaning stovetops and microwaves, wiping down kitchen appliances, vacuuming floors and furniture, sweeping all floors, mopping kitchen and bathroom floors, changing bedding, sanitizing sponges, and disinfecting door knobs and light switches.</p>
+    </div>
+  </div>
+<div class="middle-section">
+    <div class="text text-left">
+      <p>Deep Cleaning Checklist: For those times when your home needs a little extra attention, our deep cleaning services are perfect. This includes all the tasks in our regular cleaning, plus cleaning and disinfecting the inside of ovens, stove grates, hood fans, refrigerators, dishwashers, walls behind large appliances, ceiling fans, polishing metal hardware, changing bedsheets, washing windows, deep cleaning carpets, washing shower curtains, cleaning grout and soap scum from shower tiles, washing or shampooing rugs, and cleaning gutters.</p>
+    </div>
+
+    <div class="image image-left">
+      <img src="kkleanhome.jpg" alt="Krystal Klean" style="width: 100%;">
+    </div>
+  </div>
+
+  <div class="middle-section">
+    <div class="image">
+      <img src="IMG_20240328_201520.jpg" alt="Krystal Klean" style="width: 100%;">
+    </div>
+
+    <div class="text text-right">
+      <p>Move-Out Cleaning Checklist: Moving can be stressful, but our move-out cleaning services can help ease the transition. We dust baseboards, window sills, shelves, light fixtures, replace burnt-out light bulbs, remove cobwebs, clean doors and walls, clean the interior of closets, wipe interior and exterior of cabinets and drawers, sweep, mop, or vacuum floors, clean showers, tubs, sinks, and toilets, clean laundry machines, remove carpet stains, and wipe down and disinfect all countertops.</p>
+    </div>
+  </div>
+
+    <div class="middle-section">
+    <div class="text text-left">
+      <p>Airbnb Cleaning Checklist: For Airbnb hosts, we offer specialized cleaning services to ensure your rental is guest-ready. This includes washing and changing bedsheets, washing towels and bathrobes, cleaning the kitchen, throwing out leftover food, dusting furniture and other surfaces, wiping down countertops, sweeping and mopping floors, vacuuming carpets and rugs, cleaning toilets, showers, and bathtubs, disinfecting door knobs, light switches, and remotes, and taking out trash and replacing the garbage bag.</p>
+    </div>
+
+    <div class="image image-left">
+      <img src="kkleanhome.jpg" alt="Krystal Klean" style="width: 100%;">
+    </div>
+  </div>
+
+  <div class="middle-section">
+    <div class="image">
+      <img src="IMG_20240328_201520.jpg" alt="Krystal Klean" style="width: 100%;">
+    </div>
+
+    <div class="text text-right">
+      <p>Monthly Cleaning Checklist: Our monthly cleaning services are designed to tackle those tasks that don't need to be done as frequently but are essential for maintaining a clean home. This includes Regular House Cleaning Tasks + washing windows, wiping baseboards, cleaning blinds and curtains, dusting and cleaning grime from ceiling fan blades, dusting and vacuuming air vents, wiping chair rails, washing blankets, mattress pads, deep cleaning kitchen appliances, cleaning out the pantry, scrubbing tile grout, cleaning light fixtures, wiping down door frames, laundry room, washing machines, washing rugs, cleaning out the dryer vent, and cleaning trash cans.</p>
+    </div>
+  </div>
+  <!-- Repeat the above middle-section structure for additional paragraphs and images -->
+
+  <div class="bottom-text">
+    
+
+    <p>Our team comes fully equipped with all the necessary supplies to ensure a thorough clean every time. This includes vacuum cleaners with attachments for hardwood and carpet, buckets or containers to carry supplies, mops, dusters, dustpans, brooms, paper towels, microfiber cloths, glass cleaning cloths, protective rubber gloves, cleaning brushes, laundry bags, disinfectant wipes, shoe covers, spray bottles, and trash bags.</p>
+    <p>Choosing Krystal Klean means opting for a hassle-free cleaning experience delivered by professionals who care about the cleanliness and comfort of your home. Our commitment to excellence, attention to detail, and personalized services set us apart. Let us take care of the cleaning, so you can focus on enjoying your beautifully clean home.</p>
+    <p>Contact us today to schedule your cleaning service and experience the Krystal Klean difference</p>
+  </div>
+</div>
+  
+  
+
+
+
+
+
+
+</body>
+
+</html>
