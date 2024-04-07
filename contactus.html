@@ -299,6 +299,7 @@ p {
     position: absolute;
     top: -8rem;
     left: -20rem;
+    z-index: 0;
 }
   body {
       font-family: Arial, sans-serif;
@@ -308,6 +309,8 @@ p {
       background-position: center;
       background-repeat: no repeat;
   }
+  .dropdown-menu {
+    z-index: 1;
 }
     /* Add more CSS rules as needed */
   </style>
@@ -322,8 +325,7 @@ p {
             <ul class="dropdown-menu">
               <li><a href="#">Residential</a></li>
               <li><a href="#">Commercial</a></li>
-              <li><a href="#">Deep Cleaning</a></li>
-              <li><a href="#">Recurring Cleaning</a></li>
+              <li><a href="#">Construction</a></li>
             </ul>
           </li>
           <li><a href="#">About Us</a></li>
