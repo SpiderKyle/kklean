@@ -388,9 +388,17 @@ p {
         <input id="email-input" name="email" placeholder="Your email here..." class="form-input input" />
       </div>
        <div class="input-container">
-        <label for="City/State" class="label"> City/State </label>
-        <textarea id="city-state" name="city/state" placeholder="Example = Boston, MA..." class="form-input message"></textarea>
+        <label for="City" class="label"> City </label>
+        <textarea id="city" name="city" placeholder="Your city here..." class="form-input message"></textarea>
       </div>
+      <div class="input-container">
+    <label for="DropdownOptions" class="label">State</label>
+    <select id="dropdown-options" name="dropdownOptions" class="form-input input">
+        <option value="option1">New Hampshire</option>
+        <option value="option2">Massachusetts</option>
+        <!-- Add more options as needed -->
+    </select>
+</div>
       <div class="input-container">
     <label for="DropdownOptions" class="label">Residential or Commercial</label>
     <select id="dropdown-options" name="dropdownOptions" class="form-input input">
@@ -399,6 +407,10 @@ p {
         <!-- Add more options as needed -->
     </select>
 </div>
+<div class="input-container">
+        <label for="square-feet" class="label"> Square Feet </label>
+        <textarea id="square-feet" name="city" placeholder="Estimate of the square feet of cleaning area here..." class="form-input message"></textarea>
+      </div>
       <div class="input-container">
         <label for="Message" class="label"> Message </label>
         <textarea id="message-input" name="message" placeholder="Type your message..." class="form-input message"></textarea>
